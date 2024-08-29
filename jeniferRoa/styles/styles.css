@@ -1,0 +1,278 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+nav.top-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 2px 20px;
+    border-bottom: 1px solid #ccc;
+    border-top: 4px solid #004A87;
+}
+
+nav.top-nav img {
+    cursor: pointer;
+}
+
+#campusLogo {
+    height: 35px;
+}
+
+nav.top-nav .top-nav-1 {
+    display: flex;
+    align-items: center;
+}
+
+nav.top-nav .top-nav-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav.top-nav h3 {
+    font-size: 25px;
+    color: #202122;
+    padding-right: 40px;
+    font-weight: 540;
+}
+
+nav.top-nav .top-nav-2 img {
+    height: 30px;
+}
+
+nav.top-nav a {
+    text-decoration: none;
+}
+
+nav.top-nav .top-nav-3 {
+    display: flex;
+    gap: 13px;
+}
+
+nav.top-nav .top-nav-3 img {
+    margin-right: 6px;
+    height: 35px;
+}
+
+#message {
+    height: 40px;
+}
+
+#notification {
+    border-radius: 20%;
+    height: 40px;
+    margin-top: 3px;
+}
+
+#bell {
+    margin-top: 3px;
+}
+
+nav.top-nav .top-nav-4 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#userPic {
+    border-radius: 100%;
+    margin-top: 5px;
+    margin-right: 10px;
+    height: 40px;
+}
+
+#settings {
+    height: 33px;
+    border-radius: 20%;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+#verticalD {
+    height: 25px;
+    color: #333;
+    margin-right: none;
+    cursor: default;
+}
+
+/* Barra de navegación inferior */
+nav.bottom-nav {
+    margin: auto;
+    text-align: center;
+    background-color: #004A87;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    border-bottom: 1px solid rgba(124, 134, 149, 0.18);
+    border-top: 1px solid rgba(124, 134, 149, 0.18);
+    justify-content: center;
+}
+
+nav.bottom-nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    transition: background-color 0.3s ease;
+    align-items: center;
+}
+
+nav.bottom-nav a:hover {
+    border-radius: 5px;
+    text-decoration: underline;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.title-content h1 {
+    font-size: 40px;
+    color: #333;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: normal;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.search-options {
+    color: #004A87;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.search-options:hover {
+    text-decoration: underline;
+}
+
+.search-bar input {
+    width: 16%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.search-bar h4 {
+    color: #00509e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px, 2 seg );
+}
+
+.card img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.card p {
+    color: #777;
+    font-size: 14px;
+}
+
+.card button {
+    background-color: #004A87;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.card button:hover {
+    background-color: #0056b3;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.social-icons .linkedin, .social-icons .twitter, .social-icons .facebook {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffffcc;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+    padding-left: 50px;;
+    border-top: 1px solid #ccc;
+}
+
+footer button {
+    background-color: #004A87;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
